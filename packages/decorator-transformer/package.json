@@ -1,0 +1,45 @@
+{
+  "name": "@polymer-vis/decorator-transformer",
+  "version": "3.0.0",
+  "description": "A typescript transformer to replace \"@property\" and \"@custom-element\" decorators with vanilla javascript for Polymer and LitElement webcomponents.",
+  "keywords": [
+    "polymer",
+    "lit-element",
+    "decorator",
+    "custom",
+    "element",
+    "webcomponents",
+    "typescript",
+    "transformer"
+  ],
+  "author": "eterna2 <eterna2@hotmail.com>",
+  "homepage": "https://github.com/PolymerVis/polymervis-tools/tree/master/packages/decorator-transformer#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PolymerVis/polymervis-tools.git"
+  },
+  "scripts": {
+    "prepare": "tsc",
+    "build": "tsc",
+    "test:unit": "jest",
+    "test": "npm run test:unit"
+  },
+  "bugs": {
+    "url": "https://github.com/PolymerVis/polymervis-tools/issues"
+  },
+  "dependencies": {
+    "typescript": "^3.1.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

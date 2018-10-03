@@ -1,0 +1,34 @@
+sudo: required
+dist: trusty
+language: node_js
+
+# By default you get two Travis builds for a PR: one that builds the feature
+# branch directly (called "branch"), and another that makes a hypothetical merge
+# commit on master (called "PR"). The merge build is what really matters, and we
+# don't want to waste resources by also building the branch.
+branches:
+  only:
+    - master
+
+cache:
+  directories:
+    - "$HOME/.npm"
+
+install:
+  - npm i -g npm@latest
+  - npm ci
+  - npm run bootstrap
+  - npm run build
+
+script:
+  - $TEST_COMMAND
+
+matrix:
+  include:
+    - node_js: "8"
+      env:
+        - TEST_COMMAND="npm run test:unit"
+
+    - node_js: "10"
+      env:
+        - TEST_COMMAND="npm run test:unit"

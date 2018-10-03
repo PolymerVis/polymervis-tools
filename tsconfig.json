@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "umd",
+    "target": "es2017",
+    "lib": ["es2017", "dom"],
+    "strict": true,
+    "declaration": false,
+    "removeComments": false,
+    "sourceMap": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "inlineSources": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true
+  },
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}

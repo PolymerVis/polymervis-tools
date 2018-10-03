@@ -1,0 +1,23 @@
+{
+  "folders": [
+    {
+      "path": "packages/decorator-transformer"
+    },
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": false,
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/bower_components": true,
+      "**/package-lock.json": true,
+      "**/npm-shrinkwrap.json": true,
+      "**/integration/fixtures": true,
+      "packages/web-component-tester/browser.js": true,
+      "packages/web-component-tester/browser.js.map": true
+    }
+  }
+}

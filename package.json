@@ -1,0 +1,41 @@
+{
+  "name": "@polymer-vis/tools",
+  "private": false,
+  "version": "3.0.0",
+  "description": "A suite of tools for polymer 3.0 and lit-html based webcomponents.",
+  "main": "index.js",
+  "dependencies": {},
+  "scripts": {
+    "bootstrap": "lerna bootstrap --ci",
+    "build": "lerna run build",
+    "test": "lerna run test",
+    "test:unit": "lerna run test:unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PolymerVis/polymervis-tools.git"
+  },
+  "keywords": [
+    "polymer",
+    "lit-html",
+    "webcomponents"
+  ],
+  "author": "eterna2 <eterna2@hotmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/PolymerVis/polymervis-tools/issues"
+  },
+  "homepage": "https://github.com/PolymerVis/polymervis-tools#readme",
+  "devDependencies": {
+    "@polymer/lit-element": "^0.6.1",
+    "@polymer/polymer": "^3.0.5",
+    "@types/jest": "^23.3.3",
+    "@types/node": "^10.11.3",
+    "@types/pino": "^5.6.0",
+    "jest": "^23.6.0",
+    "lerna": "^3.4.0",
+    "pino": "^5.6.2",
+    "ts-jest": "^23.10.3",
+    "typescript": "^3.1.1"
+  }
+}
