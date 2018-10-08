@@ -1,6 +1,6 @@
 {
   "name": "@polymer-vis/decorator-transformer",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "A typescript transformer to replace \"@property\" and \"@custom-element\" decorators with vanilla javascript for Polymer and LitElement webcomponents.",
   "keywords": [
     "polymer",
