@@ -1,5 +1,9 @@
 # `@polymer-vis/tools`
 
+[![Build Status](https://travis-ci.org/PolymerVis/polymervis-tools.svg?branch=master)](https://travis-ci.org/PolymerVis/polymervis-tools)
+[![typescript: 3](https://img.shields.io/badge/typescript-3.1-blue.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-blue.svg?style=flat-square)](https://github.com/prettier/prettier)
+
 This is a mono-repo for general utilities for `PolymerVis`.
 
 ## Quickstart
