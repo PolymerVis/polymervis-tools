@@ -1,0 +1,10 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "package.json",
+        "packages/decorator-transformer/package.json"
+      ]
+    }
+  }
+}
