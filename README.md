@@ -1,5 +1,8 @@
 # `@polymer-vis/tools`
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/PolymerVis/polymervis-tools.svg)](https://greenkeeper.io/)
+
+
 This is a mono-repo for general utilities for `PolymerVis`.
 
 ## Quickstart

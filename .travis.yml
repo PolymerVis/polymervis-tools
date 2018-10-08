@@ -8,7 +8,7 @@ language: node_js
 # don't want to waste resources by also building the branch.
 branches:
   only:
-    - master
+    - master    - /^greenkeeper/.*$/
 
 cache:
   directories:
